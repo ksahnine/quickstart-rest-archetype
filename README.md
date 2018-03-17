@@ -6,7 +6,11 @@ Ce dépôt contient le code source d'un archetype Maven générant une applicati
 
 ## Mode opératoire d'installation de l'archetype :
 
-`mvn install`
+```
+git clone https://github.com/ksahnine/quickstart-rest-archetype.git
+cd quickstart-rest-archetype
+mvn install
+```
 
 ## Génération d'une application :
 
