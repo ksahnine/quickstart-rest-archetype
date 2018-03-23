@@ -1,0 +1,7 @@
+FROM payara/micro
+
+ADD target/${artifactId}.war /opt/payara/deployments/${artifactId}.war
+
+EXPOSE 8080
+
+ENTRYPOINT java -jar /opt/payara/payara-micro.jar --deploymentDir /opt/payara/deployments

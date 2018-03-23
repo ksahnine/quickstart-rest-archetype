@@ -1,0 +1,7 @@
+FROM codenvy/jboss-eap7
+
+ADD target/${artifactId}.war /home/user/jboss-eap-7.1/standalone/deployments/${artifactId}.war
+
+EXPOSE 8080
+
+ENTRYPOINT /home/user/jboss-eap-7.1/bin/standalone.sh -c standalone.xml -b 0.0.0.0
