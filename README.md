@@ -18,7 +18,7 @@ mvn install
 
 ```
 mvn archetype:generate -B \
-	  -DarchetypeGroupId=fr.inovia-conseil \
+	  -DarchetypeGroupId=org.ksahnine \
 	  -DarchetypeArtifactId=quickstart-rest-archetype \
 	  -DarchetypeVersion=1.0-SNAPSHOT \
 	  -DgroupId=com.demo -DartifactId=dummy -DinteractiveMode=false
